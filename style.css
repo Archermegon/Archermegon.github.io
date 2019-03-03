@@ -595,6 +595,7 @@ h5,
 h6,
 .h6 {
   font-weight: 400;
+  margin-top: 20px;;
 }
 
 a:hover,
@@ -2929,7 +2930,7 @@ nav.main-navigation ul li:hover > ul {
     font-size: 30px;
     line-height: 1.3;
     letter-spacing: 1px;
-    margin-top: 68px;
+    margin-top:90px;
   }
 }
 
