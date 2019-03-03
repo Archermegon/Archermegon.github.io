@@ -1447,9 +1447,28 @@ blockquote {
 }
 
 .section-padding-lg {
-  padding: 80px 0 40px 0;
+  padding: 60px 0 40px 0;
 }
-
+.project-area{
+  padding-top: 20px;
+}
+.project-area h2{
+  padding-bottom: 30px;
+}
+.about-us-area{
+  padding-top: 10px;
+}
+.about-us-area h2{
+   padding-bottom: 20px;;
+}
+.about-content>h3{
+padding: 30px 0 15px 0;
+}
+.about-content>h4{
+  text-indent: 30px;
+  font-size: 18px;
+  line-height:28px;
+}
 .section-padding-md {
   padding: 90px 0;
 }
@@ -1576,7 +1595,7 @@ blockquote {
     padding: 90px 0;
   }
   .section-padding-lg {
-    padding: 80px 0;
+    padding: 10px 0;
   }
   .section-padding-md {
     padding: 60px 0;
@@ -1615,7 +1634,13 @@ blockquote {
     padding: 20px 0;
   }
   .section-padding-lg {
-    padding: 70px 0;
+    /* padding: 30px 0; */
+  }
+  .about-us-area{
+    padding-top: 0;
+  }
+  .about-content{
+    margin-top: 0;
   }
   .section-padding-top-xlg {
     padding-top: 80px;
@@ -1904,6 +1929,17 @@ blockquote {
 }
 
 /**************************************
+	My Styles
+***************************************/
+.front-end-list{
+  list-style: none
+}
+
+/**************************************
+	My Styles
+***************************************/
+
+/**************************************
 	Elements Styles
 ***************************************/
 /**
@@ -2022,7 +2058,7 @@ blockquote {
  * Section Title
  */
 .section-title {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .section-title h2 {
@@ -2834,6 +2870,9 @@ nav.main-navigation ul li:hover > ul {
   max-height: 100%;
   z-index: -1;
 }
+.hero-area-image img{
+  width: 80%;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-area-inner {
@@ -2890,7 +2929,7 @@ nav.main-navigation ul li:hover > ul {
     font-size: 30px;
     line-height: 1.3;
     letter-spacing: 1px;
-    margin-top: 300px;
+    margin-top: 68px;
   }
 }
 
@@ -3240,11 +3279,13 @@ nav.main-navigation ul li:hover > ul {
 }
 
 .single-pricing .pricing-top p {
+  /* color: #ac0404; */
+  font-weight: bold;
   font-family: dosis;
-  font-size: 36px;
-  font-weight: 500;
+  font-size: 40px;
+  /* font-weight: 500; */
   margin: 0 30px;
-  padding: 25px 0;
+  padding: 10px 0;
   border-bottom: 1px solid #ddd;
 }
 
@@ -3254,13 +3295,12 @@ nav.main-navigation ul li:hover > ul {
 }
 
 .single-pricing .pricing-bottom {
-  padding: 40px 30px;
+  padding: 10px 30px;
 }
 
 .single-pricing .pricing-bottom ul {
   margin-bottom: 0;
-  padding: 0;
-  padding-bottom: 40px;
+  padding: 10px 0;
 }
 
 .single-pricing .pricing-bottom ul li {
@@ -3268,7 +3308,7 @@ nav.main-navigation ul li:hover > ul {
   color: #333333;
   font-size: 16px;
   line-height: 26px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   text-transform: capitalize;
 }
 
@@ -4070,7 +4110,7 @@ nav.main-navigation ul li:hover > ul {
     margin-right: 0;
   }
   .about-content {
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   .about-content ul {
     margin-top: 25px;
